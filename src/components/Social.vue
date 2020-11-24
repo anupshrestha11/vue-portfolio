@@ -5,10 +5,10 @@
                 src="https://img.icons8.com/fluent/48/000000/facebook-new.png"
             />
         </a>
-        <a href="https://linkedin.com">
+        <a href="https://www.linkedin.com/in/anup-shrestha-566592135/">
             <img src="https://img.icons8.com/fluent/48/000000/linkedin.png" />
         </a>
-        <a href="https://github.com">
+        <a href="https://github.com/anupshrestha11">
             <img src="https://img.icons8.com/fluent/48/000000/github.png" />
         </a>
         <!-- <a href="https://icons8.com/icon/uLWV5A9vXIPu/facebook"

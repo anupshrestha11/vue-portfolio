@@ -12,6 +12,10 @@
                 intrest of fields.
             </p>
             <p>
+                I have just completed my BSc.CSIT from Tribhuvan University,
+                2020.
+            </p>
+            <p>
                 As fullstack developer, I do front-end in ReactJs, Vue, or HTML
                 and for backend, I use Framework like Laravel, SpringBoot. I
                 have the knownledge of Java, JavaScript, Python as well as Php.
