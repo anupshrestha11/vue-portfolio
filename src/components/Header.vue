@@ -10,6 +10,7 @@
         </button>
         <ul :class="{ active: isActive }">
             <li><router-link to="/">Home</router-link></li>
+            <li><router-link to="/work">My Work</router-link></li>
             <li><router-link to="/about">About Me</router-link></li>
         </ul>
     </header>
@@ -32,12 +33,12 @@ export default {
 
 <style lang="scss" scoped>
 header {
-    @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+    // @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Montserrat", monospace;
     border-bottom: 1px solid #00000040;
     max-width: 1200px;
     margin: 0 auto;
@@ -60,7 +61,7 @@ header {
         letter-spacing: 0.1rem;
         font-weight: 700;
         color: #000;
-        word-spacing: -20px;
+        word-spacing: -10px;
         white-space: nowrap;
         span {
             color: #ff3e4d;
@@ -92,10 +93,9 @@ header {
             margin: 0 15px;
             a {
                 text-decoration: none;
-                word-spacing: -5px;
                 padding: 5px 8px;
                 border-radius: 10px 4px;
-                font-weight: 600;
+                font-weight: 500;
                 color: #000;
                 transition: all 0.1s ease;
                 &.router-link-exact-active {
@@ -103,7 +103,7 @@ header {
                 }
                 &:hover:not(.router-link-exact-active) {
                     color: #fff;
-                    font-weight: 300;
+                    // font-weight: 300;
                     background: #192a56;
                 }
             }
